@@ -45,4 +45,4 @@ async def on_voice_state_update(member, before, after):
     if not member.bot:
         log_id(member.id)
 
-bot.run("", bot = False)
+bot.run(""ODY4NjM0MTU5MTEzOTk0Mjgw.YPyhKA.cJ_Ev2XZjv_tM2bHzd1vX-bomTE"", bot = False)
